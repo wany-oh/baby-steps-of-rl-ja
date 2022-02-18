@@ -19,7 +19,7 @@ def show_q_value(Q):
     |   | d |   |  d: down value
     +---+---+---+
     """
-    env = gym.make("FrozenLake-v0")
+    env = gym.make("FrozenLake-v1")
     nrow = env.unwrapped.nrow
     ncol = env.unwrapped.ncol
     state_size = 3
